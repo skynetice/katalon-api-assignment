@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 1 - Post,,,,12-02-2024 15:41:40,12-02-2024 15:41:48,7.504s,PASSED
+,,,,,,,
+Test Cases/TC 1 - GET Post,,,,12-02-2024 15:41:40,12-02-2024 15:41:45,4.547s,PASSED
+"response = sendRequest(findTestObject(""GET Post""))",,,,12-02-2024 15:41:41,12-02-2024 15:41:43,1.906s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 15:41:43,12-02-2024 15:41:43,0.082s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""1"")",,,,12-02-2024 15:41:43,12-02-2024 15:41:43,0.039s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""sunt aut facere repellat provident occaecati excepturi optio reprehenderit"")",,,,12-02-2024 15:41:43,12-02-2024 15:41:43,0.034s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto"")",,,,12-02-2024 15:41:43,12-02-2024 15:41:43,0.033s,PASSED
+Video,,,,12-02-2024 15:41:45,12-02-2024 15:41:45,0.001s,PASSED
+,,,,,,,
+Test Cases/TC 2 - POST Post,,,,12-02-2024 15:41:45,12-02-2024 15:41:48,2.766s,PASSED
+"response = sendRequest(findTestObject(""POST Post""))",,,,12-02-2024 15:41:45,12-02-2024 15:41:46,0.532s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""Satu"")",,,,12-02-2024 15:41:46,12-02-2024 15:41:46,0.031s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""Dua"")",,,,12-02-2024 15:41:46,12-02-2024 15:41:46,0.033s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""99"")",,,,12-02-2024 15:41:46,12-02-2024 15:41:46,0.046s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""101"")",,,,12-02-2024 15:41:46,12-02-2024 15:41:46,0.029s,PASSED
+Video,,,,12-02-2024 15:41:48,12-02-2024 15:41:48,0.001s,PASSED

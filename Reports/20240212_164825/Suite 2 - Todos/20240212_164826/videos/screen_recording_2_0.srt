@@ -1,0 +1,8 @@
+1
+00:00:00,039 --> 00:00:00,899
+1. response = sendRequest(findTestObject("PATCH Todos"))
+
+2
+00:00:00,899 --> 00:00:00,923
+5. verifyElementPropertyValue(response, "title", "Budi membeli kacang")
+
