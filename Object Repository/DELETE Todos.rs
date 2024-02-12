@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Todos for userId 9</name>
+   <name>DELETE Todos</name>
    <tag></tag>
-   <elementGuidId>552f9107-376b-4f05-8508-7a4a79b7b942</elementGuidId>
+   <elementGuidId>2c018613-1d47-45d1-a0ca-70fcb90f67d4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
@@ -15,8 +15,8 @@
    <katalonVersion>9.2.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/todos?userId=9</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/todos/5</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -37,12 +37,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-WS.verifyElementPropertyValue(response, '[1].userId', '')
-WS.verifyElementPropertyValue(response, '[9].userId', '')
-WS.verifyElementPropertyValue(response, '[19].userId', '')
-WS.verifyElementPropertyValue(response, '[0].userId', '')
-WS.verifyElementPropertyValue(response, '[19].id', '')</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
