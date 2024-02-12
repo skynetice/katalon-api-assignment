@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('GET Todos for userId 9'))
+response = WS.sendRequest(findTestObject('DELETE Posts'))
 
-
-for ( int i = 1; i < 20;i++) {
-	WS.verifyElementPropertyValue(response, '['+ i +'].userId', '9')
-}
-
+WS.verifyResponseStatusCode(response, 200)

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Todos for userId 9</name>
+   <name>DELETE Posts</name>
    <tag></tag>
-   <elementGuidId>552f9107-376b-4f05-8508-7a4a79b7b942</elementGuidId>
+   <elementGuidId>6034a9d6-a866-4202-92b7-32b2186dc95e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
    <katalonVersion>9.2.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/todos?userId=9</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://jsonplaceholder.typicode.com/posts/5</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -37,12 +37,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-WS.verifyElementPropertyValue(response, '[1].userId', '')
-WS.verifyElementPropertyValue(response, '[9].userId', '')
-WS.verifyElementPropertyValue(response, '[19].userId', '')
-WS.verifyElementPropertyValue(response, '[0].userId', '')
-WS.verifyElementPropertyValue(response, '[19].id', '')</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -1,0 +1,8 @@
+1
+00:00:00,052 --> 00:00:00,885
+1. response = sendRequest(findTestObject("DELETE Posts"))
+
+2
+00:00:00,885 --> 00:00:00,905
+5. verifyResponseStatusCode(response, 200)
+

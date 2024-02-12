@@ -1,0 +1,84 @@
+1
+00:00:00,217 --> 00:00:02,786
+1. response = sendRequest(findTestObject("GET Todos for userId 9"))
+
+2
+00:00:02,794 --> 00:00:02,797
+5. for ([i = 1, i < 20, (i++)])
+
+3
+00:00:02,798 --> 00:00:02,911
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+4
+00:00:02,912 --> 00:00:02,960
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+5
+00:00:02,960 --> 00:00:02,987
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+6
+00:00:02,987 --> 00:00:03,020
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+7
+00:00:03,021 --> 00:00:03,046
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+8
+00:00:03,047 --> 00:00:03,079
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+9
+00:00:03,080 --> 00:00:03,108
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+10
+00:00:03,108 --> 00:00:03,136
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+11
+00:00:03,137 --> 00:00:03,167
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+12
+00:00:03,168 --> 00:00:03,199
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+13
+00:00:03,200 --> 00:00:03,230
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+14
+00:00:03,231 --> 00:00:03,269
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+15
+00:00:03,270 --> 00:00:03,300
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+16
+00:00:03,301 --> 00:00:03,345
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+17
+00:00:03,345 --> 00:00:03,377
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+18
+00:00:03,378 --> 00:00:03,424
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+19
+00:00:03,425 --> 00:00:03,456
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+20
+00:00:03,457 --> 00:00:03,502
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+
+21
+00:00:03,503 --> 00:00:03,545
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "9")
+

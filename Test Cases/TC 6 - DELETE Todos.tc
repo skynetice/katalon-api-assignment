@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 6 - DELETE Todos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6144099-4153-424d-90f9-86f067f53f06</testCaseGuid>
+</TestCaseEntity>

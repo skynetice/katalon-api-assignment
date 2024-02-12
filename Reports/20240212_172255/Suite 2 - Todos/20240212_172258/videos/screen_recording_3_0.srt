@@ -1,0 +1,8 @@
+1
+00:00:00,036 --> 00:00:00,371
+1. response = sendRequest(findTestObject("DELETE Todos"))
+
+2
+00:00:00,372 --> 00:00:00,387
+5. verifyResponseStatusCode(response, 200)
+
