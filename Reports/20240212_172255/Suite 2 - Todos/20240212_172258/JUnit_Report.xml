@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite 2 - Todos" time="11.373" tests="3" failures="0" errors="0">
+   <testsuite name="Suite 2 - Todos" tests="3" failures="0" errors="0" time="11.373" skipped="0" timestamp="12-02-2024T17:23:18" hostname="skyne - SKYNETICJ-0VA" id="Test Suites/Suite 2 - Todos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_172255\\Suite 2 - Todos\\20240212_172258"/>
+         <property name="logFiles" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_172255\\Suite 2 - Todos\\20240212_172258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skyne - SKYNETICJ-0VA"/>
+         <property name="hostAddress" value="172.16.213.219"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TC 3 - GET Todos userId 9" time="5.818" classname="Test Cases/TC 3 - GET Todos userId 9" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:23:18 - [TEST_CASE][PASSED] - Test Cases/TC 3 - GET Todos userId 9: Test Cases/TC 3 - GET Todos userId 9
+
+12-02-2024T17:23:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET Todos for userId 9")): Send request successfully
+
+12-02-2024T17:23:21 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_172255\Suite 2 - Todos\20240212_172258\requests\main\0.har
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - for ([i = 1, i < 20, (i++)]): Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T17:23:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 3 - GET Todos userId 9' .
+
+12-02-2024T17:23:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 3 - GET Todos userId 9' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC 4 - PATCH Todos" time="2.963" classname="Test Cases/TC 4 - PATCH Todos" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:23:24 - [TEST_CASE][PASSED] - Test Cases/TC 4 - PATCH Todos: Test Cases/TC 4 - PATCH Todos
+
+12-02-2024T17:23:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PATCH Todos")): Send request successfully
+
+12-02-2024T17:23:25 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_172255\Suite 2 - Todos\20240212_172258\requests\main\1.har
+
+12-02-2024T17:23:25 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:23:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "Budi membeli kacang"): Verify element property value successfully
+
+12-02-2024T17:23:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:23:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 4 - PATCH Todos' .
+
+12-02-2024T17:23:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 4 - PATCH Todos' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC 6 - DELETE Todos" time="2.419" classname="Test Cases/TC 6 - DELETE Todos" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:23:27 - [TEST_CASE][PASSED] - Test Cases/TC 6 - DELETE Todos: Test Cases/TC 6 - DELETE Todos
+
+12-02-2024T17:23:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("DELETE Todos")): Send request successfully
+
+12-02-2024T17:23:27 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_172255\Suite 2 - Todos\20240212_172258\requests\main\2.har
+
+12-02-2024T17:23:27 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:23:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T17:23:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:23:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 6 - DELETE Todos' .
+
+12-02-2024T17:23:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 6 - DELETE Todos' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T17:23:18 - [TEST_SUITE][PASSED] - Suite 2 - Todos: Test Cases/TC 6 - DELETE Todos]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

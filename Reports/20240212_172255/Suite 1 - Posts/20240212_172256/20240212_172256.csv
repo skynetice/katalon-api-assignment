@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 1 - Posts,,,,12-02-2024 17:23:03,12-02-2024 17:23:14,10.975s,PASSED
+,,,,,,,
+Test Cases/TC 1 - GET Posts,,,,12-02-2024 17:23:03,12-02-2024 17:23:07,4.418s,PASSED
+"response = sendRequest(findTestObject(""GET Posts""))",,,,12-02-2024 17:23:03,12-02-2024 17:23:05,1.784s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:23:05,12-02-2024 17:23:05,0.080s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""1"")",,,,12-02-2024 17:23:05,12-02-2024 17:23:05,0.039s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""sunt aut facere repellat provident occaecati excepturi optio reprehenderit"")",,,,12-02-2024 17:23:05,12-02-2024 17:23:05,0.054s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto"")",,,,12-02-2024 17:23:05,12-02-2024 17:23:05,0.027s,PASSED
+Video,,,,12-02-2024 17:23:07,12-02-2024 17:23:07,0.001s,PASSED
+,,,,,,,
+Test Cases/TC 2 - POST Posts,,,,12-02-2024 17:23:07,12-02-2024 17:23:11,3.436s,PASSED
+"response = sendRequest(findTestObject(""POST Posts""))",,,,12-02-2024 17:23:08,12-02-2024 17:23:09,1.255s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""Satu"")",,,,12-02-2024 17:23:09,12-02-2024 17:23:09,0.025s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""Dua"")",,,,12-02-2024 17:23:09,12-02-2024 17:23:09,0.036s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""99"")",,,,12-02-2024 17:23:09,12-02-2024 17:23:09,0.025s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""101"")",,,,12-02-2024 17:23:09,12-02-2024 17:23:09,0.026s,PASSED
+Video,,,,12-02-2024 17:23:11,12-02-2024 17:23:11,0.000s,PASSED
+,,,,,,,
+Test Cases/TC 5 - DELETE Posts,,,,12-02-2024 17:23:11,12-02-2024 17:23:14,2.954s,PASSED
+"response = sendRequest(findTestObject(""DELETE Posts""))",,,,12-02-2024 17:23:11,12-02-2024 17:23:12,0.833s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 17:23:12,12-02-2024 17:23:12,0.018s,PASSED
+Video,,,,12-02-2024 17:23:14,12-02-2024 17:23:14,0.001s,PASSED

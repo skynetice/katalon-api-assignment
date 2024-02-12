@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 2 - Todos,,,,12-02-2024 17:23:18,12-02-2024 17:23:29,11.373s,PASSED
+,,,,,,,
+Test Cases/TC 3 - GET Todos userId 9,,,,12-02-2024 17:23:18,12-02-2024 17:23:24,5.818s,PASSED
+"response = sendRequest(findTestObject(""GET Todos for userId 9""))",,,,12-02-2024 17:23:19,12-02-2024 17:23:21,2.563s,PASSED
+"for ([i = 1, i < 20, (i++)])",,,,12-02-2024 17:23:21,12-02-2024 17:23:22,0.749s,PASSED
+Video,,,,12-02-2024 17:23:24,12-02-2024 17:23:24,0.000s,PASSED
+,,,,,,,
+Test Cases/TC 4 - PATCH Todos,,,,12-02-2024 17:23:24,12-02-2024 17:23:27,2.963s,PASSED
+"response = sendRequest(findTestObject(""PATCH Todos""))",,,,12-02-2024 17:23:24,12-02-2024 17:23:25,0.861s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""Budi membeli kacang"")",,,,12-02-2024 17:23:25,12-02-2024 17:23:25,0.021s,PASSED
+Video,,,,12-02-2024 17:23:27,12-02-2024 17:23:27,0.000s,PASSED
+,,,,,,,
+Test Cases/TC 6 - DELETE Todos,,,,12-02-2024 17:23:27,12-02-2024 17:23:29,2.419s,PASSED
+"response = sendRequest(findTestObject(""DELETE Todos""))",,,,12-02-2024 17:23:27,12-02-2024 17:23:27,0.336s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 17:23:27,12-02-2024 17:23:27,0.014s,PASSED
+Video,,,,12-02-2024 17:23:29,12-02-2024 17:23:29,0.001s,PASSED
