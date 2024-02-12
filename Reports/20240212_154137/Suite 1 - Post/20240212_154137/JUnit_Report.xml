@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite 1 - Post" time="7.504" tests="2" failures="0" errors="0">
+   <testsuite name="Suite 1 - Post" tests="2" failures="0" errors="0" time="7.504" skipped="0" timestamp="12-02-2024T15:41:40" hostname="skyne - SKYNETICJ-0VA" id="Test Suites/Suite 1 - Post">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_154137\\Suite 1 - Post\\20240212_154137"/>
+         <property name="logFiles" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_154137\\Suite 1 - Post\\20240212_154137\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skyne - SKYNETICJ-0VA"/>
+         <property name="hostAddress" value="172.16.213.219"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TC 1 - GET Post" time="4.547" classname="Test Cases/TC 1 - GET Post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:40 - [TEST_CASE][PASSED] - Test Cases/TC 1 - GET Post: Test Cases/TC 1 - GET Post
+
+12-02-2024T15:41:41 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET Post")): Send request successfully
+
+12-02-2024T15:41:43 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_154137\Suite 1 - Post\20240212_154137\requests\main\0.har
+
+12-02-2024T15:41:43 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "1"): Verify element property value successfully
+
+12-02-2024T15:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "1"): Verify element property value successfully
+
+12-02-2024T15:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"): Verify element property value successfully
+
+12-02-2024T15:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto"): Verify element property value successfully
+
+12-02-2024T15:41:43 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 1 - GET Post' .
+
+12-02-2024T15:41:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 1 - GET Post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC 2 - POST Post" time="2.766" classname="Test Cases/TC 2 - POST Post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:45 - [TEST_CASE][PASSED] - Test Cases/TC 2 - POST Post: Test Cases/TC 2 - POST Post
+
+12-02-2024T15:41:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("POST Post")): Send request successfully
+
+12-02-2024T15:41:45 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_154137\Suite 1 - Post\20240212_154137\requests\main\1.har
+
+12-02-2024T15:41:45 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T15:41:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "Satu"): Verify element property value successfully
+
+12-02-2024T15:41:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "Dua"): Verify element property value successfully
+
+12-02-2024T15:41:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "99"): Verify element property value successfully
+
+12-02-2024T15:41:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "101"): Verify element property value successfully
+
+12-02-2024T15:41:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 2 - POST Post' .
+
+12-02-2024T15:41:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 2 - POST Post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:41:40 - [TEST_SUITE][PASSED] - Suite 1 - Post: Test Cases/TC 2 - POST Post]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

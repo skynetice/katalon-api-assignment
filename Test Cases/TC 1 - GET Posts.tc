@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1 - GET Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64fdc03e-27bb-4965-9eab-522c2abdc6e9</testCaseGuid>
+</TestCaseEntity>

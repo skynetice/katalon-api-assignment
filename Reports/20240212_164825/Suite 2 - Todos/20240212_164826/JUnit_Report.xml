@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite 2 - Todos" time="8.043" tests="2" failures="0" errors="0">
+   <testsuite name="Suite 2 - Todos" tests="2" failures="0" errors="0" time="8.043" skipped="0" timestamp="12-02-2024T16:48:30" hostname="skyne - SKYNETICJ-0VA" id="Test Suites/Suite 2 - Todos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_164825\\Suite 2 - Todos\\20240212_164826"/>
+         <property name="logFiles" value="C:\\Users\\skyne\\git\\katalon-taskapi-MuhammadRhayhanAkbar\\Reports\\20240212_164825\\Suite 2 - Todos\\20240212_164826\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="skyne - SKYNETICJ-0VA"/>
+         <property name="hostAddress" value="172.16.213.219"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/TC 3 - GET Todos userId 9" time="4.894" classname="Test Cases/TC 3 - GET Todos userId 9" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:48:30 - [TEST_CASE][PASSED] - Test Cases/TC 3 - GET Todos userId 9: Test Cases/TC 3 - GET Todos userId 9
+
+12-02-2024T16:48:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET Todos for userId 9")): Send request successfully
+
+12-02-2024T16:48:32 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_164825\Suite 2 - Todos\20240212_164826\requests\main\0.har
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - for ([i = 1, i < 20, (i++)]): Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[" + i + "].userId", "9"): Verify element property value successfully
+
+12-02-2024T16:48:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 3 - GET Todos userId 9' .
+
+12-02-2024T16:48:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 3 - GET Todos userId 9' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC 4 - PATCH Todos" time="2.968" classname="Test Cases/TC 4 - PATCH Todos" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:48:35 - [TEST_CASE][PASSED] - Test Cases/TC 4 - PATCH Todos: Test Cases/TC 4 - PATCH Todos
+
+12-02-2024T16:48:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PATCH Todos")): Send request successfully
+
+12-02-2024T16:48:36 - [MESSAGE][INFO] - HAR: C:\Users\skyne\git\katalon-taskapi-MuhammadRhayhanAkbar\Reports\20240212_164825\Suite 2 - Todos\20240212_164826\requests\main\1.har
+
+12-02-2024T16:48:36 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:48:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "Budi membeli kacang"): Verify element property value successfully
+
+12-02-2024T16:48:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T16:48:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC 4 - PATCH Todos' .
+
+12-02-2024T16:48:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC 4 - PATCH Todos' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T16:48:30 - [TEST_SUITE][PASSED] - Suite 2 - Todos: Test Cases/TC 4 - PATCH Todos]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

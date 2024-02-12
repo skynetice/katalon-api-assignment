@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 2 - Todos,,,,12-02-2024 16:48:30,12-02-2024 16:48:38,8.043s,PASSED
+,,,,,,,
+Test Cases/TC 3 - GET Todos userId 9,,,,12-02-2024 16:48:30,12-02-2024 16:48:35,4.894s,PASSED
+"response = sendRequest(findTestObject(""GET Todos for userId 9""))",,,,12-02-2024 16:48:30,12-02-2024 16:48:32,1.743s,PASSED
+"for ([i = 1, i < 20, (i++)])",,,,12-02-2024 16:48:32,12-02-2024 16:48:33,0.725s,PASSED
+Video,,,,12-02-2024 16:48:35,12-02-2024 16:48:35,0.001s,PASSED
+,,,,,,,
+Test Cases/TC 4 - PATCH Todos,,,,12-02-2024 16:48:35,12-02-2024 16:48:38,2.968s,PASSED
+"response = sendRequest(findTestObject(""PATCH Todos""))",,,,12-02-2024 16:48:35,12-02-2024 16:48:36,0.860s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""Budi membeli kacang"")",,,,12-02-2024 16:48:36,12-02-2024 16:48:36,0.022s,PASSED
+Video,,,,12-02-2024 16:48:38,12-02-2024 16:48:38,0.001s,PASSED

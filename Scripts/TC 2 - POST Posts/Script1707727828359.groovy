@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('GET Post'))
+response = WS.sendRequest(findTestObject('POST Posts'))
 
-WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'id', '1')
-WS.verifyElementPropertyValue(response, 'title', 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit')
-WS.verifyElementPropertyValue(response, 'body', 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto')
+WS.verifyElementPropertyValue(response, 'title', 'Satu')
+WS.verifyElementPropertyValue(response, 'body', 'Dua')
+WS.verifyElementPropertyValue(response, 'userId', '99')
+WS.verifyElementPropertyValue(response, 'id', '101')
+
